@@ -4,7 +4,7 @@ var katzDeliLine = [];
 
 function takeANumber(katzDeliLine, name) {
   const placeInLine = katzDeliLine.length + 1;
-  katzDeliLine.push(name)
+  katzDeliLine.push(name);
   return `Welcome, ${name}. You are number ${placeInLine} in line.`;
 }
 
